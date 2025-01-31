@@ -28,7 +28,7 @@ Each folder corresponds to a problem and contains the solution along with perfor
    ```
 3. Run the solution file:
    ```bash
-   python3 solution.py
+   python3 two-sum.py
    ```
 
 ## 📌 Topics Covered
