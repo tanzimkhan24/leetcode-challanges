@@ -31,7 +31,7 @@ public class Solution {
             }
 
             carry = sum / 10; // Calculate carry for next addition
-            current.next = new ListNode(sum % 10); // Store last digit of the sum
+            current.next = new ListNode(sum % 10); // Store last digit of the sum of the new node
             current = current.next; // Move to newly created node
         }
 
