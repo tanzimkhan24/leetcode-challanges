@@ -18,7 +18,7 @@ public class Solution {
 
         // Iterate through both lists until both are fully processed
         while (l1 != null || l2 != null || carry != 0) {
-            int sum = carry; // Initialize sum with carry from previous iteration
+            int sum = carry; // Initialise sum with carry from previous iteration
 
             if (l1 != null) {
                 sum += l1.val; // Add value from first list
