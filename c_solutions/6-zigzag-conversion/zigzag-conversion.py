@@ -1,3 +1,5 @@
+# git sync
+
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
          # Edge case: If there is only one row, return the string as is
@@ -13,7 +15,7 @@ class Solution:
     
         # Loop through each character in the input string
         for char in s:
-            rows[current_row] += char  # Append the character to the current row
+            rows[current_row] += char  # Append the character to current row
         
             # Reverse direction when reaching the top or bottom row
             if current_row == 0 or current_row == numRows - 1:
